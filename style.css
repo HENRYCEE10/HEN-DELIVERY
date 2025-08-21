@@ -1,0 +1,207 @@
+.gradient-background {
+  background-color: #0e1d34e6;
+  color: aliceblue;
+  position: static;
+  justify-content: flex-start;
+}
+
+.mountain{
+  color: aliceblue;
+}
+
+.big{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  color: blue;
+ 
+}
+
+/* WhatsApp Floating Button with Bootstrap */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  background-color: #128C7E;
+  transform: scale(1.1);
+  color: white;
+  text-decoration: none;
+}
+
+.whatsapp-float svg {
+  width: 30px;
+  height: 30px;
+}
+
+.man {
+  color: blue;
+}
+
+.girl {
+  
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: blue;
+  
+}
+
+ .video-thumbnail:hover {
+        transform: scale(1.02);
+      }
+      .play-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 3rem;
+        text-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+
+      .pricing {
+        background-color: #0e1d34e6;
+        margin-bottom: 4rem;
+       
+        
+      }
+      .book{
+        color: white;
+        font-size: 4rem;
+        font-weight: bold;
+      }
+
+
+
+      #zoomContainer {
+        transition: transform 2s ease-out;
+        transform-origin: center center;
+    }
+
+    .bone {
+      background-color: #0e1d34e6;
+      color: white;
+    }
+    #side {
+      color: white;
+    }
+
+   
+ .social-icon  {
+  color: #E1306C; /* Instagram brand color */
+  font-size: 1.5rem;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.social-icon :hover {
+  color: #C13584; /* Darker Instagram color */
+  transform: scale(1.1);
+}
+    
+
+.mobile-icon {
+    color: white
+    ; /* TikTok black (default) */
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.mobile-icon:hover {
+    color: wheat; /* TikTok red on hover */
+    transform: scale(1.1);
+}
+   .ins{
+    border-radius: 50%;
+    
+    border: solid 1px antiquewhite;
+    padding: 5px;
+   }    
+   
+   /* Floating Contact Button */
+.float-contact {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+}
+.contact-btn {
+  width: 60px;
+  height: 60px;
+  background: blue;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.contact-btn:hover {
+  background: blue;
+  transform: scale(1.1);
+}
+
+/* Contact Support Box */
+.contact-box {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  padding: 20px;
+  display: none;
+  z-index: 1000;
+}
+.contact-box h5 {
+  color: blue;
+  margin-bottom: 15px;
+}
+.contact-box a {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+}
+.contact-box a:hover {
+  color: blue;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #999;
+}
+
+@media(max-width: 768px) {
+  img {
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+}
